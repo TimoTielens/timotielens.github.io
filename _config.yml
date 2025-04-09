@@ -24,12 +24,6 @@ tagline: Simple blog/wiki/knowhow about development, and smart home
 description: >-
   Simple blog/wiki/knowhow about development, and smart home. By Timo Tielens-Jansen which is a Full Stack Developer, Devoted Husband and Father, and Home Automation Enthusiast
 
-# Fill in the protocol & hostname for your site. Note that it does not end with a '/'.
-url: "https://timotielens.nl"
-
-# The base URL of your site
-baseurl: "https://timotielens.nl"
-
 # change to your GitHub username
 github:
   username: TimoTielens

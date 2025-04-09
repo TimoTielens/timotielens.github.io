@@ -1,7 +1,7 @@
 ---
 title: Understanding Cancellation Tokens in .NET
-author: cotes
-date: 2024-12-01 00:11:00 +0200
+author: Timo Tielens-Jansen
+date: 2024-12-01 11:00:00
 categories: [.NET, C#, cancellation tokens]
 tags: [cancellation]
 ---

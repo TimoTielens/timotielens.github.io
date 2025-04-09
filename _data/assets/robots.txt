@@ -1,0 +1,10 @@
+---
+permalink: /robots.txt
+# The robots rules
+# use https://www.seoptimer.com/robots-txt-generator to generate
+---
+
+User-agent: *
+Disallow:
+Crawl-delay: 120
+Sitemap: {{ '/sitemap.xml' | absolute_url }}

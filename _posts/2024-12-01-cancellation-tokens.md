@@ -1,9 +1,10 @@
 ---
 title: Understanding Cancellation Tokens in .NET
-author: Timo Tielens-Jansen
-date: 2024-12-01 11:00:00
-categories: [.NET, C#, cancellation tokens]
-tags: [cancellation]
+description: Understanding how **cancellation token** work (it is a mechanism provided by .NET to signal and handle the cancellation of asynchronous or long-running operations).
+author: timo
+date: 2024-12-01 11:00:00 +0000
+categories: [.NET, cancellation tokens]
+tags: [cancellation tokens]
 ---
 
 In modern .NET applications, managing asynchronous operations efficiently is crucial. One of the most powerful tools for handling long-running or potentially unresponsive tasks is the **cancellation token**. This post will explore what cancellation tokens are, how they work, and how to use them effectively in your .NET applications.

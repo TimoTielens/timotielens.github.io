@@ -18,23 +18,19 @@ timezone: Europe/Amsterdam
 title: Timo Tielens-Jansen
 
 # it will display as the subtitle
-tagline: Full Stack Developer, Devoted Husband and Father, and Home Automation Enthusiast
+tagline: Simple blog/wiki/knowhow about development, and smart home
 
 # used by seo meta and the atom feed
 description: >-
-  Simple blog/wiki/knowhow about development, and smart home. By Timo Tielens-Jansen
+  Simple blog/wiki/knowhow about development, and smart home. By Timo Tielens-Jansen which is a Full Stack Developer, Devoted Husband and Father, and Home Automation Enthusiast
 
-# Fill in the protocol & hostname for your site.
-# E.g. 'https://username.github.io', note that it does not end with a '/'.
+# Fill in the protocol & hostname for your site. Note that it does not end with a '/'.
 url: "htpps://timotielens.nl"
 
 # The base URL of your site
 baseurl: "htpps://timotielens.nl"
 
-plugins:
-  - jekyll-sitemap
-
-  # change to your GitHub username
+# change to your GitHub username
 github:
   username: TimoTielens
 
@@ -48,12 +44,10 @@ social:
   email: development@timotielens.nl # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    # https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/TimoTielens # change to your GitHub homepage
     - https://TimoTielens.nl
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://github.com/TimoTielens # change to your GitHub homepage
+    - https://www.linkedin.com/in/timotielens
+    - https://t.me/timotielens
 
 # Site Verification Settings
 # webmaster_verifications:
@@ -66,6 +60,10 @@ social:
 
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
+
+# https://github.com/topics/jekyll-plugin
+plugins:
+  - jekyll-sitemap
 
 # Web Analytics Settings
 # analytics:
@@ -109,7 +107,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "assets/media/timo-bike.jpg"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.

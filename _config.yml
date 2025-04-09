@@ -224,3 +224,16 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+security_txt:
+  comment: If you find any security issues on this site, please contact me!
+  contact:
+    - mailto:security@proudnerds.com
+  expires: 2026-01-01T00:00:00Z
+  encryption:
+  preferred_languages: en, nl, de
+  acknowledgments:
+  policy:
+  hiring:
+  csaf:
+  canonical:

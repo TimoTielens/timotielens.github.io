@@ -56,8 +56,8 @@ social:
 # The end of `jekyll-seo-tag` settings
 
 # https://github.com/topics/jekyll-plugin
-# plugins:
-#   - jekyll-sitemap
+plugins:
+  - jekyll-sitemap
 
 # Web Analytics Settings
 # analytics:

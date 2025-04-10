@@ -5,6 +5,7 @@ author: timo
 date: 2024-12-01 11:00:00 +0000
 categories: [.NET, cancellation tokens]
 tags: [cancellation tokens]
+showLastMod: false
 ---
 
 In modern .NET applications, managing asynchronous operations efficiently is crucial. One of the most powerful tools for handling long-running or potentially unresponsive tasks is the **cancellation token**. This post will explore what cancellation tokens are, how they work, and how to use them effectively in your .NET applications.

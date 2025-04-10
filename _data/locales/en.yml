@@ -1,2 +1,12 @@
 not_found:
   statement: Whoops sorry, it seems that the thing you're looking for is gone. Maybe it's taking a nap, and you try it again later?
+
+  # Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "MMMM D, YYYY"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
